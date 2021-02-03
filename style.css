@@ -1,0 +1,47 @@
+*{
+	background-color: #82E1F2;
+	font-family: consolas;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: sevenSegment;
+	src:url(Seven-Segment.ttf);
+}
+
+#time-left{
+	font-family: sevenSegment;
+	font-size: 15em;
+	color: #7A7882;
+}
+
+body{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+input{
+	padding: 10px 0;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	margin: 10px;
+	text-align: center;
+}
+
+button{
+	color: red;
+	align-items: center;
+	justify-content: center;
+	display: inline-block;
+	border-radius: 20px;
+	padding: 20px;
+	font-size: 20px;
+}
+
+button:hover{
+	background: #EFF312;
+}
